@@ -1,0 +1,34 @@
+Load "IMU_2022\\IMU_2022.axf" 
+* JLink Info: Device "CORTEX-M0" selected.
+Set JLink Project File to "c:\Users\jian123\Desktop\Infantry_2022-main\IMU2022\IMU2022\MDK-ARM\JLinkSettings.ini"* JLink Info: Device "CORTEX-M0" selected.
+
+JLink info:
+------------
+DLL: V5.00 , compiled Jun  8 2015 21:22:48
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+ROMTableAddr = 0xE00FF003
+
+Target info:
+------------
+Device: STM32F042F6Px
+VTarget = 3.300V
+State of Pins: TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 0
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 4000 kHz
+
+Erase Done.Programming Done.Verify OK.**JLink Warning: Mis-aligned memory write: Address: 0x20000000, NumBytes: 2, Alignment: 2 (Halfword-aligned)
+Flash Load finished at 22:06:26
